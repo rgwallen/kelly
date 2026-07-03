@@ -1,0 +1,16 @@
+2026-07-02 13:27:04,702 - INFO - Application Started
+2026-07-02 13:27:04,702 - INFO - Environment validation successful
+2026-07-02 13:27:18,746 - INFO - New Invoice Created: 123 My Street - 07022026.pdf
+2026-07-02 13:27:24,340 - INFO - Opening PDF: D:\rgw\OneDrive - K.O. Energy Design, LLC\OneDrive - Wallen Service Corp\Kelly\Invoices\123 My Street - 07022026.pdf
+2026-07-02 14:43:34,671 - INFO - Application Started
+2026-07-02 14:43:34,671 - INFO - Environment validation successful
+2026-07-02 14:43:58,741 - INFO - Editing Existing Invoice: 123 My Street - 07022026.pdf
+2026-07-02 14:43:58,751 - INFO - Opening PDF: D:\rgw\OneDrive - K.O. Energy Design, LLC\OneDrive - Wallen Service Corp\Kelly\Invoices\123 My Street - 07022026.pdf
+2026-07-02 14:44:24,669 - INFO - Invoice Renamed: 1234 My Street - 07022026.pdf
+2026-07-02 14:45:47,313 - INFO - New Invoice Created: 3333 Thomas Ave - 07022026.pdf
+2026-07-02 14:45:50,743 - INFO - Opening PDF: D:\rgw\OneDrive - K.O. Energy Design, LLC\OneDrive - Wallen Service Corp\Kelly\Invoices\3333 Thomas Ave - 07022026.pdf
+2026-07-02 14:48:57,186 - INFO - Application Started
+2026-07-02 14:48:57,187 - INFO - Environment validation successful
+2026-07-02 14:49:52,512 - INFO - New Invoice Created: 1234 Any Street - 07022026.pdf
+2026-07-02 14:50:30,765 - INFO - Opening PDF: D:\rgw\OneDrive - K.O. Energy Design, LLC\OneDrive - Wallen Service Corp\Kelly\Invoices\1234 Any Street - 07022026.pdf
+2026-07-02 14:52:52,313 - INFO - Renamed: 1234 Any Street - 07022026.pdf -> 1234 Anystreet Ave - 07022026.pdf
