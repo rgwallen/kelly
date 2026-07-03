@@ -29,7 +29,6 @@ from pathlib import Path
 
 from tkinter import *
 from tkinter import filedialog
-from tkinter import messagebox
 
 from PIL import Image
 from PIL import ImageTk
@@ -336,22 +335,8 @@ def create_new_invoice() -> None:
 
     if not address:
 
-        messagebox.showwarning(
-            "Address Required",
-            """
-Please enter the customer street address.
-
-Example:
-
-1234 SW Palm Beach Drive
-
-Do NOT enter:
-
-City
-State
-ZIP Code
-"""
-        )
+        set_status("⚠ Enter customer street address (e.g., 1234 SW Palm Beach Drive)")
+        address_entry.focus_set()
 
         return
 
@@ -368,11 +353,7 @@ ZIP Code
 
     except Exception as ex:
 
-        messagebox.showerror(
-            "Copy Error",
-            str(ex)
-        )
-
+        set_status(f"✗ Copy Error: {ex}")
         logging.error(
             f"Copy Failed: {ex}"
         )
@@ -381,36 +362,6 @@ ZIP Code
 
     logging.info(
         f"New Invoice Created: {pdf_file.name}"
-    )
-
-    messagebox.showinfo(
-        "Step 2 of 3",
-        f"""
-Customer Street Address:
-
-{address}
-
-Invoice File Name:
-
-{pdf_file.name}
-
-Click OK to open the invoice.
-"""
-    )
-
-    messagebox.showinfo(
-        "Step 3 of 3",
-        """
-The invoice is now open.
-
-Please do the following:
-
-1. Complete the invoice.
-2. Save the invoice.
-3. Close the PDF.
-
-The program will continue automatically.
-"""
     )
 
     set_status("Opening invoice...")
@@ -422,19 +373,10 @@ The program will continue automatically.
 
     restore_root()
     enable_ui()
-    set_status("Invoice window closed")
 
     if not closed:
 
-        messagebox.showwarning(
-            "Timeout",
-            """
-The invoice remained open too long.
-
-Please reopen the application if needed.
-"""
-        )
-
+        set_status("✗ Invoice timeout (open too long)")
         return
 
     final_address = read_pdf_field(
@@ -468,16 +410,7 @@ Please reopen the application if needed.
 
                 pdf_file = replacement
 
-                messagebox.showinfo(
-                    "Address Updated",
-                    f"""
-Customer address changed.
-
-New File Name:
-
-{pdf_file.name}
-"""
-                )
+                set_status(f"✓ Address updated: {pdf_file.name}")
 
             except Exception as ex:
 
@@ -485,22 +418,13 @@ New File Name:
                     f"Rename Failed: {ex}"
                 )
 
-    messagebox.showinfo(
-        "Invoice Complete",
-        f"""
-Invoice processing complete.
-
-File Location:
-
-{pdf_file}
-"""
-    )
+                set_status(f"✗ Rename Error: {ex}")
 
     refresh_invoice_count()
     address_var.set("")
     address_entry.focus_set()
     set_status(
-        f"Last Invoice Saved: {pdf_file.name}"
+        f"✓ Saved: {pdf_file.name}"
     )
 
 
@@ -535,22 +459,7 @@ def edit_existing_invoice() -> None:
         FIELD_CUSTOMER_ADDRESS
     )
 
-    messagebox.showinfo(
-        "Edit Instructions",
-        """
-The invoice is now open.
-
-Please:
-
-1. Make your changes.
-2. Save the invoice.
-3. Close the PDF.
-
-The program will continue automatically.
-"""
-    )
-
-    set_status("Opening existing invoice...")
+    set_status(f"Opening: {pdf_file.name}")
     disable_ui()
     hide_root()
     open_pdf(pdf_file)
@@ -559,10 +468,9 @@ The program will continue automatically.
 
     restore_root()
     enable_ui()
-    set_status("Invoice window closed")
 
     if not closed:
-        set_status("Invoice wait timed out")
+        set_status("✗ Invoice wait timed out")
         return
 
     current_address = read_pdf_field(
@@ -571,6 +479,7 @@ The program will continue automatically.
     )
 
     if not current_address:
+        set_status("✓ Invoice updated")
         return
 
     current_address = sanitize_filename(
@@ -582,6 +491,7 @@ The program will continue automatically.
     )
 
     if current_address == original_address:
+        set_status("✓ Invoice updated")
         return
 
     try:
@@ -598,16 +508,7 @@ The program will continue automatically.
             f"Invoice Renamed: {replacement.name}"
         )
 
-        messagebox.showinfo(
-            "Invoice Renamed",
-            f"""
-Customer address was updated.
-
-New File Name:
-
-{replacement.name}
-"""
-        )
+        set_status(f"✓ Renamed: {replacement.name}")
 
     except Exception as ex:
 
@@ -615,10 +516,7 @@ New File Name:
             f"Rename Error: {ex}"
         )
 
-        messagebox.showerror(
-            "Rename Error",
-            str(ex)
-        )
+        set_status(f"✗ Rename Error: {ex}")
 
 
 # ============================================================
@@ -747,18 +645,13 @@ except Exception:
 Label(
     root,
     text="""
-What would you like to do?
+INVOICE MANAGER
 
-To Create a New Invoice:
+Enter the customer street address:
 
-Enter the customer street address.
+Example:  1234 SW Palm Beach Drive
 
-Example:
-
-1234 SW Palm Beach Drive
-
-Enter STREET ADDRESS ONLY.
-Do NOT enter City, State, or ZIP Code.
+(STREET ADDRESS ONLY - no City, State, ZIP)
 """,
     justify=CENTER
 ).pack(
@@ -818,23 +711,25 @@ Label(
     anchor="w"
 )
 
-Button(
+create_button = Button(
     root,
     text="Create New Invoice",
     width=30,
     height=2,
     command=create_new_invoice
-).pack(
+)
+create_button.pack(
     pady=5
 )
 
-Button(
+edit_button = Button(
     root,
-    text="Open Existing Invoice",
+    text="Edit Existing Invoice",
     width=30,
     height=2,
     command=edit_existing_invoice
-).pack(
+)
+edit_button.pack(
     pady=5
 )
 
