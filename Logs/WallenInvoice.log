@@ -14,3 +14,858 @@
 2026-07-02 14:49:52,512 - INFO - New Invoice Created: 1234 Any Street - 07022026.pdf
 2026-07-02 14:50:30,765 - INFO - Opening PDF: D:\rgw\OneDrive - K.O. Energy Design, LLC\OneDrive - Wallen Service Corp\Kelly\Invoices\1234 Any Street - 07022026.pdf
 2026-07-02 14:52:52,313 - INFO - Renamed: 1234 Any Street - 07022026.pdf -> 1234 Anystreet Ave - 07022026.pdf
+2026-07-03 09:51:32,228 - INFO - Application Started
+2026-07-03 09:51:32,229 - INFO - Environment validation successful
+2026-07-03 09:51:52,510 - INFO - Editing Existing Invoice: test - 07022026.pdf
+2026-07-03 09:51:52,635 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\test - 07022026.pdf
+2026-07-03 10:35:27,005 - INFO - Application Started
+2026-07-03 10:35:27,007 - INFO - Environment validation successful
+2026-07-03 10:35:44,811 - INFO - Editing Existing Invoice: test - 07022026.pdf
+2026-07-03 10:35:44,849 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\test - 07022026.pdf
+2026-07-03 10:39:33,736 - INFO - Application Started
+2026-07-03 10:39:33,737 - INFO - Environment validation successful
+2026-07-03 12:06:59,285 - INFO - Application Started
+2026-07-03 12:06:59,286 - INFO - Environment validation successful
+2026-07-03 12:06:59,829 - WARNING - Startup SMTP connectivity check failed. Steps: FAIL: WALLEN_SMTP_HOST is not configured
+2026-07-03 13:24:54,809 - INFO - Application Started
+2026-07-03 13:24:54,809 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-03 13:24:54,809 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-03 13:24:54,809 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-03 13:24:54,809 - INFO - Environment validation successful
+2026-07-03 13:25:01,022 - WARNING - Startup SMTP connectivity check failed. Steps: PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0480.namprd03.prod.outlook.com 2026-07-03T17:24:59.824Z 08DED66D923DFC6F]'))
+2026-07-03 13:25:42,695 - INFO - Application Started
+2026-07-03 13:25:42,695 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-03 13:25:42,695 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-03 13:25:42,695 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-03 13:25:42,695 - INFO - Environment validation successful
+2026-07-03 13:25:48,825 - WARNING - Startup SMTP connectivity check failed. Steps: PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0459.namprd03.prod.outlook.com 2026-07-03T17:25:47.631Z 08DED50B216AB841]'))
+2026-07-03 13:26:16,099 - INFO - New Invoice Created: 0703 Happy Birthday St - 07032026.pdf
+2026-07-03 13:26:16,099 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\0703 Happy Birthday St - 07032026.pdf
+2026-07-03 13:27:47,066 - ERROR - Notification email failed for 0703 Happy Birthday St - 07032026.pdf: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0751.namprd03.prod.outlook.com 2026-07-03T17:27:45.872Z 08DED818C10B90DD]')
+2026-07-03 13:29:05,513 - INFO - Application Started
+2026-07-03 13:29:05,514 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-03 13:29:05,514 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-03 13:29:05,514 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-03 13:29:05,514 - INFO - Environment validation successful
+2026-07-03 13:29:11,503 - WARNING - Startup SMTP connectivity check failed. Steps: PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN1PR12CA0009.namprd12.prod.outlook.com 2026-07-03T17:29:10.308Z 08DED82DC6258955]'))
+2026-07-05 20:55:12,628 - INFO - Application Started
+2026-07-05 20:55:12,629 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-05 20:55:12,629 - INFO - Email provider mode: auto
+2026-07-05 20:55:12,629 - INFO - Graph configured: False
+2026-07-05 20:55:12,630 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-05 20:55:12,630 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-05 20:55:12,631 - INFO - Environment validation successful
+2026-07-05 20:55:18,887 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN0PR04CA0142.namprd04.prod.outlook.com 2026-07-06T00:55:18.833Z 08DEDA4FD6E25AF7]'))
+2026-07-05 20:59:13,494 - INFO - Application Started
+2026-07-05 20:59:13,494 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-05 20:59:13,494 - INFO - Email provider mode: auto
+2026-07-05 20:59:13,494 - INFO - Graph configured: False
+2026-07-05 20:59:13,495 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-05 20:59:13,495 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-05 20:59:13,495 - INFO - Environment validation successful
+2026-07-05 20:59:19,907 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0077.namprd03.prod.outlook.com 2026-07-06T00:59:19.829Z 08DED50043369CD2]'))
+2026-07-05 21:00:02,610 - INFO - Application Started
+2026-07-05 21:00:02,611 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-05 21:00:02,611 - INFO - Email provider mode: auto
+2026-07-05 21:00:02,611 - INFO - Graph configured: False
+2026-07-05 21:00:02,611 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-05 21:00:02,611 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-05 21:00:02,611 - INFO - Environment validation successful
+2026-07-05 21:00:08,658 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0061.namprd03.prod.outlook.com 2026-07-06T01:00:08.546Z 08DED508A48A29DC]'))
+2026-07-05 21:00:15,150 - INFO - New Invoice Created: 1111` any street - 07052026.pdf
+2026-07-05 21:00:15,151 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1111` any street - 07052026.pdf
+2026-07-05 21:04:14,745 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-05 21:04:15,785 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-05 21:04:16,817 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-05 21:04:17,852 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-05 21:04:18,883 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-05 21:04:18,884 - WARNING - Final address field was blank for 1111` any street - 07052026.pdf
+2026-07-05 21:04:24,656 - ERROR - Notification email failed for 1111` any street - 07052026.pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0925.namprd03.prod.outlook.com 2026-07-06T01:04:24.448Z 08DEDAC568463636]'))
+2026-07-05 21:09:20,443 - INFO - Application Started
+2026-07-05 21:09:20,444 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-05 21:09:20,444 - INFO - Email provider mode: auto
+2026-07-05 21:09:20,444 - INFO - Graph configured: False
+2026-07-05 21:09:20,444 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-05 21:09:20,444 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-05 21:09:20,445 - INFO - Environment validation successful
+2026-07-05 21:09:27,045 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN0PR07CA0014.namprd07.prod.outlook.com 2026-07-06T01:09:26.908Z 08DEDA593370E224]'))
+2026-07-05 21:19:45,791 - INFO - Application Started
+2026-07-05 21:19:45,792 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-05 21:19:45,792 - INFO - Email provider mode: auto
+2026-07-05 21:19:45,793 - INFO - Graph configured: False
+2026-07-05 21:19:45,793 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-05 21:19:45,793 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-05 21:19:45,794 - INFO - Environment validation successful
+2026-07-05 21:19:52,413 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BL1PR13CA0081.namprd13.prod.outlook.com 2026-07-06T01:19:52.277Z 08DEDA997A099084]'))
+2026-07-05 21:20:23,038 - INFO - New Note Created: Estimate for 123 Joy St - 07052026.txt
+2026-07-05 21:20:23,038 - INFO - Opening text file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\Estimate for 123 Joy St - 07052026.txt
+2026-07-05 21:21:48,610 - INFO - Editing Existing Invoice: 1111` any street - 07052026.pdf
+2026-07-05 21:21:48,670 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1111` any street - 07052026.pdf
+2026-07-05 21:25:02,423 - INFO - Invoice Renamed: 1111 any street - 07052026 - 07052026.pdf
+2026-07-05 21:25:52,969 - ERROR - Email self-test failed. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BLAP220CA0009.NAMP220.PROD.OUTLOOK.COM 2026-07-06T01:25:52.866Z 08DED6558840262D]'))
+2026-07-05 21:26:38,494 - INFO - Application Started
+2026-07-05 21:26:38,495 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-05 21:26:38,495 - INFO - Email provider mode: auto
+2026-07-05 21:26:38,495 - INFO - Graph configured: False
+2026-07-05 21:26:38,495 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-05 21:26:38,495 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-05 21:26:38,496 - INFO - Environment validation successful
+2026-07-05 21:28:24,742 - INFO - Application Started
+2026-07-05 21:28:24,742 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-05 21:28:24,742 - INFO - Email provider mode: auto
+2026-07-05 21:28:24,743 - INFO - Graph configured: False
+2026-07-05 21:28:24,743 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-05 21:28:24,743 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-05 21:28:24,744 - INFO - Environment validation successful
+2026-07-05 21:28:30,869 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN1PR10CA0007.namprd10.prod.outlook.com 2026-07-06T01:28:30.785Z 08DEDA7E27BD35DD]'))
+2026-07-07 11:47:01,993 - INFO - Application Started
+2026-07-07 11:47:01,994 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-07 11:47:01,994 - INFO - Email provider mode: auto
+2026-07-07 11:47:01,994 - INFO - Graph configured: False
+2026-07-07 11:47:01,994 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-07 11:47:01,995 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-07 11:47:01,996 - INFO - Environment validation successful
+2026-07-07 11:47:08,282 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BL0PR05CA0014.namprd05.prod.outlook.com 2026-07-07T15:47:08.468Z 08DEDA700F0F6B5E]'))
+2026-07-07 11:47:16,985 - INFO - New Invoice Created: test - 07072026.pdf
+2026-07-07 11:47:16,986 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\test - 07072026.pdf
+2026-07-07 11:49:51,870 - ERROR - Notification email failed for test - 07072026.pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN0PR04CA0163.namprd04.prod.outlook.com 2026-07-07T15:49:52.037Z 08DEDC0C2F09C2FE]'))
+2026-07-07 11:50:23,759 - INFO - New Note Created: test - 07072026.txt
+2026-07-07 11:50:23,760 - INFO - Opening text file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\test - 07072026.txt
+2026-07-07 11:52:24,032 - INFO - New Invoice Created: thpmas - 07072026.pdf
+2026-07-07 11:52:24,034 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\thpmas - 07072026.pdf
+2026-07-07 11:53:08,915 - INFO - Renamed: thpmas - 07072026.pdf -> thomas - 07072026.pdf
+2026-07-07 11:53:14,798 - ERROR - Notification email failed for thomas - 07072026.pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MN2PR22CA0015.namprd22.prod.outlook.com 2026-07-07T15:53:14.835Z 08DED72608B6558D]'))
+2026-07-08 15:05:06,345 - INFO - Application Started
+2026-07-08 15:05:06,346 - INFO - SMTP host not configured
+2026-07-08 15:05:06,346 - INFO - Email provider mode: auto
+2026-07-08 15:05:06,346 - INFO - Graph configured: False
+2026-07-08 15:05:06,346 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-08 15:05:06,346 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-08 15:05:06,347 - INFO - Environment validation successful
+2026-07-08 15:05:06,884 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-09 14:28:59,747 - INFO - Application Started
+2026-07-09 14:28:59,748 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-09 14:28:59,748 - INFO - Email provider mode: auto
+2026-07-09 14:28:59,748 - INFO - Graph configured: False
+2026-07-09 14:28:59,748 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-09 14:28:59,748 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-09 14:28:59,749 - INFO - Environment validation successful
+2026-07-09 14:29:06,130 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0680.namprd03.prod.outlook.com 2026-07-09T18:29:04.533Z 08DEDDBDEF518727]'))
+2026-07-09 14:29:18,450 - INFO - New Invoice Created: 9914 us highway 441 se - 07092026.pdf
+2026-07-09 14:29:18,451 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\9914 us highway 441 se - 07092026.pdf
+2026-07-09 14:31:24,077 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-09 14:31:25,122 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-09 14:31:26,163 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-09 14:31:27,195 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-09 14:31:28,234 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-09 14:31:28,234 - WARNING - Final address field was blank for 9914 us highway 441 se - 07092026.pdf
+2026-07-09 14:31:33,934 - ERROR - Notification email failed for 9914 us highway 441 se - 07092026.pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN0PR04CA0148.namprd04.prod.outlook.com 2026-07-09T18:31:32.266Z 08DEDD8D3203DCFA]'))
+2026-07-09 14:33:43,345 - INFO - Application Started
+2026-07-09 14:33:43,345 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-09 14:33:43,346 - INFO - Email provider mode: auto
+2026-07-09 14:33:43,346 - INFO - Graph configured: False
+2026-07-09 14:33:43,346 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-09 14:33:43,347 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-09 14:33:43,348 - INFO - Environment validation successful
+2026-07-09 14:33:49,683 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN0PR04CA0013.namprd04.prod.outlook.com 2026-07-09T18:33:48.092Z 08DEDD900A967EB3]'))
+2026-07-09 14:33:58,070 - INFO - New Invoice Created: 9914 us highway 441 - 07092026.pdf
+2026-07-09 14:33:58,072 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\9914 us highway 441 - 07092026.pdf
+2026-07-09 14:35:11,374 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-09 14:35:12,416 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-09 14:35:13,457 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-09 14:35:14,495 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-09 14:35:15,536 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-09 14:35:15,537 - WARNING - Final address field was blank for 9914 us highway 441 - 07092026.pdf
+2026-07-09 14:41:11,313 - INFO - Application Started
+2026-07-09 14:41:11,314 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-09 14:41:11,314 - INFO - Email provider mode: auto
+2026-07-09 14:41:11,314 - INFO - Graph configured: False
+2026-07-09 14:41:11,314 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-09 14:41:11,315 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-09 14:41:11,316 - INFO - Environment validation successful
+2026-07-09 14:41:17,618 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN0PR04CA0179.namprd04.prod.outlook.com 2026-07-09T18:41:15.957Z 08DEDD83DC8E5AA9]'))
+2026-07-09 14:41:45,841 - INFO - New Note Created: proposal - 07092026.txt
+2026-07-09 14:41:45,842 - INFO - Opening text file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\proposal - 07092026.txt
+2026-07-09 14:43:48,091 - INFO - Application Started
+2026-07-09 14:43:48,091 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-09 14:43:48,091 - INFO - Email provider mode: auto
+2026-07-09 14:43:48,091 - INFO - Graph configured: False
+2026-07-09 14:43:48,091 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-09 14:43:48,091 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-09 14:43:48,093 - INFO - Environment validation successful
+2026-07-09 14:43:54,615 - INFO - New Invoice Created: 1234 - 07092026.pdf
+2026-07-09 14:43:54,616 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 - 07092026.pdf
+2026-07-09 14:43:54,806 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0112.namprd03.prod.outlook.com 2026-07-09T18:43:53.153Z 08DEDDC657DF8E54]'))
+2026-07-09 14:45:53,556 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-09 14:45:54,592 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-09 14:45:55,631 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-09 14:45:56,663 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-09 14:45:57,702 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-09 14:45:57,702 - WARNING - Final address field was blank for 1234 - 07092026.pdf
+2026-07-09 14:46:03,522 - ERROR - Notification email failed for 1234 - 07092026.pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0184.namprd03.prod.outlook.com 2026-07-09T18:46:01.867Z 08DEDD7200CCA183]'))
+2026-07-13 16:26:35,314 - INFO - Application Started
+2026-07-13 16:26:35,314 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-13 16:26:35,314 - INFO - Email provider mode: auto
+2026-07-13 16:26:35,314 - INFO - Graph configured: False
+2026-07-13 16:26:35,314 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-13 16:26:35,314 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-13 16:26:35,315 - INFO - Environment validation successful
+2026-07-13 16:26:41,594 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0452.namprd03.prod.outlook.com 2026-07-13T20:26:40.647Z 08DEDFDF12D26A37]'))
+2026-07-13 16:27:24,463 - INFO - New Invoice Created: 756 harbour isle ct - 07132026.pdf
+2026-07-13 16:27:24,464 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\756 harbour isle ct - 07132026.pdf
+2026-07-13 16:34:07,970 - INFO - New Invoice Created: 756 harbour isle ct - 07132026 (2).pdf
+2026-07-13 16:34:07,971 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\756 harbour isle ct - 07132026 (2).pdf
+2026-07-13 16:39:21,122 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-13 16:39:22,156 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-13 16:39:23,189 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-13 16:39:24,221 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-13 16:39:25,241 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-13 16:39:25,241 - WARNING - Final address field was blank for 756 harbour isle ct - 07132026 (2).pdf
+2026-07-13 16:39:30,807 - ERROR - Notification email failed for 756 harbour isle ct - 07132026 (2).pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0175.namprd03.prod.outlook.com 2026-07-13T20:39:29.849Z 08DEE0A3DA8580FC]'))
+2026-07-13 16:40:10,987 - INFO - New Invoice Created: 9914 test - 07132026.pdf
+2026-07-13 16:40:10,988 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\9914 test - 07132026.pdf
+2026-07-13 16:41:51,068 - INFO - New Invoice Created: 9914 test - 07132026 (2).pdf
+2026-07-13 16:41:51,078 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\9914 test - 07132026 (2).pdf
+2026-07-13 16:44:20,175 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-13 16:44:21,221 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-13 16:44:22,259 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-13 16:44:23,294 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-13 16:44:24,328 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-13 16:44:24,328 - WARNING - Final address field was blank for 9914 test - 07132026 (2).pdf
+2026-07-13 16:44:30,413 - ERROR - Notification email failed for 9914 test - 07132026 (2).pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN1PR10CA0006.namprd10.prod.outlook.com 2026-07-13T20:44:29.391Z 08DEE00C0DE0F49E]'))
+2026-07-13 16:46:24,783 - INFO - Application Started
+2026-07-13 16:46:24,783 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-13 16:46:24,784 - INFO - Email provider mode: auto
+2026-07-13 16:46:24,784 - INFO - Graph configured: False
+2026-07-13 16:46:24,784 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-13 16:46:24,784 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-13 16:46:24,785 - INFO - Environment validation successful
+2026-07-13 16:59:40,900 - INFO - Application Started
+2026-07-13 16:59:40,901 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-13 16:59:40,901 - INFO - Email provider mode: auto
+2026-07-13 16:59:40,901 - INFO - Graph configured: False
+2026-07-13 16:59:40,902 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-13 16:59:40,902 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-13 16:59:40,902 - INFO - Environment validation successful
+2026-07-13 16:59:47,520 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9P221CA0030.NAMP221.PROD.OUTLOOK.COM 2026-07-13T20:59:46.461Z 08DEDFF5723AF9E1]'))
+2026-07-13 16:59:54,742 - INFO - New Invoice Created: 1 - 07132026.pdf
+2026-07-13 16:59:54,743 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1 - 07132026.pdf
+2026-07-13 17:00:08,346 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-13 17:00:09,381 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-13 17:00:10,414 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-13 17:00:11,447 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-13 17:00:12,487 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-13 17:00:12,487 - WARNING - Final address field was blank for 1 - 07132026.pdf
+2026-07-13 17:00:18,341 - ERROR - Notification email failed for 1 - 07132026.pdf: SMTP send failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0972.namprd03.prod.outlook.com 2026-07-13T21:00:17.303Z 08DEE05B5A0B47AD]'))
+2026-07-16 09:29:51,095 - INFO - Application Started
+2026-07-16 09:29:51,096 - INFO - SMTP host not configured
+2026-07-16 09:29:51,096 - INFO - Email provider mode: auto
+2026-07-16 09:29:51,096 - INFO - Graph configured: False
+2026-07-16 09:29:51,096 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 09:29:51,096 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 09:29:51,096 - INFO - Environment validation successful
+2026-07-16 09:29:51,628 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 09:32:02,181 - INFO - Application Started
+2026-07-16 09:32:02,463 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-16 09:32:02,463 - INFO - Email provider mode: auto
+2026-07-16 09:32:02,463 - INFO - Graph configured: False
+2026-07-16 09:32:02,464 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 09:32:02,464 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 09:32:02,464 - INFO - Environment validation successful
+2026-07-16 09:32:09,168 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0459.namprd03.prod.outlook.com 2026-07-16T13:32:08.450Z 08DEE2EF4FC29648]'))
+2026-07-16 09:32:11,242 - INFO - Editing Existing Invoice: 13493 william myers ct - 07162026.pdf
+2026-07-16 09:32:11,255 - INFO - Opening PDF: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\13493 william myers ct - 07162026.pdf
+2026-07-16 09:32:35,870 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-16 09:32:36,880 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-16 09:32:37,890 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-16 09:32:38,899 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-16 09:32:39,912 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-16 09:33:17,248 - INFO - Application Started
+2026-07-16 09:33:17,254 - INFO - SMTP configured for host smtp.office365.com:587
+2026-07-16 09:33:17,254 - INFO - Email provider mode: auto
+2026-07-16 09:33:17,255 - INFO - Graph configured: False
+2026-07-16 09:33:17,255 - INFO - Shared SMTP settings file: C:\Users\Thoma\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 09:33:17,255 - INFO - Local SMTP settings file: C:\Users\Thoma\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 09:33:17,256 - INFO - Environment validation successful
+2026-07-16 09:33:23,962 - INFO - Startup email connectivity check skipped. Steps: INFO: Provider smtp
+PASS: DNS resolved smtp.office365.com
+PASS: Connected to smtp.office365.com:587
+PASS: EHLO completed
+PASS: STARTTLS negotiated
+FAIL: Connectivity check failed ((535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [BN9PR03CA0090.namprd03.prod.outlook.com 2026-07-16T13:33:23.175Z 08DEE2CF5F4A29D1]'))
+2026-07-16 10:57:29,848 - INFO - Application Started
+2026-07-16 10:57:29,848 - INFO - SMTP host not configured
+2026-07-16 10:57:29,848 - INFO - Email provider mode: auto
+2026-07-16 10:57:29,848 - INFO - Graph configured: False
+2026-07-16 10:57:29,848 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 10:57:29,849 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 10:57:29,849 - INFO - Environment validation successful
+2026-07-16 10:57:30,328 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 10:59:37,814 - INFO - New Invoice Created: 1234 Test St - 07162026.pdf
+2026-07-16 10:59:37,815 - INFO - Pre-open file stats for 1234 Test St - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 10:59:37,815 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+2026-07-16 11:03:18,958 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+PRE-OPEN size=250911 bytes mtime=2026-07-13 16:55:58.795947
+POST-CLOSE size=252011 bytes mtime=2026-07-16 11:00:43.344443
+PASS: File size changed after the invoice was closed
+PASS: Modification timestamp changed after the invoice was closed
+SYNC: Starting OneDrive sync monitoring
+SYNC: observed size=252011 mtime=2026-07-16 11:00:43.344443
+SYNC: observed size=252011 mtime=2026-07-16 11:00:43.344443
+SYNC: unchanged snapshot 1/3
+SYNC: observed size=252011 mtime=2026-07-16 11:00:43.344443
+SYNC: unchanged snapshot 2/3
+SYNC: observed size=252011 mtime=2026-07-16 11:00:43.344443
+SYNC: unchanged snapshot 3/3
+PASS: File metadata remained stable for OneDrive sync
+PASS: Required PDF field CUST_Address_Street contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 11:03:18,966 - ERROR - Notification email failed for 1234 Test St - 07162026.pdf: No email provider configured
+2026-07-16 11:57:41,142 - INFO - Application Started
+2026-07-16 11:57:41,143 - INFO - SMTP host not configured
+2026-07-16 11:57:41,143 - INFO - Email provider mode: auto
+2026-07-16 11:57:41,143 - INFO - Graph configured: False
+2026-07-16 11:57:41,143 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 11:57:41,143 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 11:57:41,143 - INFO - Environment validation successful
+2026-07-16 11:57:41,670 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 11:58:39,491 - INFO - Application Started
+2026-07-16 11:58:39,491 - INFO - SMTP host not configured
+2026-07-16 11:58:39,491 - INFO - Email provider mode: auto
+2026-07-16 11:58:39,491 - INFO - Graph configured: False
+2026-07-16 11:58:39,491 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 11:58:39,491 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 11:58:39,492 - INFO - Environment validation successful
+2026-07-16 11:58:39,958 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 11:59:04,584 - INFO - New Invoice Created: 1234a Test St - 07162026.pdf
+2026-07-16 11:59:04,585 - INFO - Pre-open file stats for 1234a Test St - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 11:59:04,585 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St - 07162026.pdf
+2026-07-16 11:59:05,762 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:06,763 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:07,770 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:08,778 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:09,792 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:10,794 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:11,800 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:12,803 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:13,811 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:14,816 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:15,823 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:16,835 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:17,841 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:18,847 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:19,853 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:20,855 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:21,861 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:22,873 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:23,877 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:24,886 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:25,893 - INFO - PDF release check failed for 1234a Test St - 07162026.pdf: [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 11:59:26,906 - INFO - PDF release detected for 1234a Test St - 07162026.pdf
+2026-07-16 11:59:29,916 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St - 07162026.pdf
+PRE-OPEN size=250911 bytes mtime=2026-07-13 16:55:58.795947
+POST-CLOSE size=251337 bytes mtime=2026-07-16 11:59:26.004372
+PASS: File size changed after the invoice was closed
+PASS: Modification timestamp changed after the invoice was closed
+SYNC: Starting OneDrive sync monitoring
+SYNC: observed size=251337 mtime=2026-07-16 11:59:26.004372
+SYNC: observed size=251337 mtime=2026-07-16 11:59:26.004372
+SYNC: unchanged snapshot 1/3
+SYNC: observed size=251337 mtime=2026-07-16 11:59:26.004372
+SYNC: unchanged snapshot 2/3
+SYNC: observed size=251337 mtime=2026-07-16 11:59:26.004372
+SYNC: unchanged snapshot 3/3
+PASS: File metadata remained stable for OneDrive sync
+PASS: Required PDF field CUST_Address_Street contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 11:59:29,924 - ERROR - Notification email failed for 1234a Test St - 07162026.pdf: No email provider configured
+2026-07-16 12:16:01,766 - INFO - Application Started
+2026-07-16 12:16:01,766 - INFO - SMTP host not configured
+2026-07-16 12:16:01,766 - INFO - Email provider mode: auto
+2026-07-16 12:16:01,766 - INFO - Graph configured: False
+2026-07-16 12:16:01,766 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 12:16:01,766 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 12:16:01,767 - INFO - Environment validation successful
+2026-07-16 12:16:02,239 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 12:16:06,887 - INFO - New Invoice Created: 999 Test Road - 07162026.pdf
+2026-07-16 12:16:06,888 - INFO - Pre-open file stats for 999 Test Road - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 12:16:06,888 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\999 Test Road - 07162026.pdf
+2026-07-16 12:16:07,995 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:09,005 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:10,006 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:11,012 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:12,022 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:13,031 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:14,032 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:15,041 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:16,048 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:17,056 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:18,060 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:19,063 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:20,071 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:21,076 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:22,085 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:23,088 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:24,096 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:25,100 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:26,101 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:27,105 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:28,111 - INFO - INFO: PDF still open in editor (999 Test Road - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\999 Test Road - 07162026.pdf'
+2026-07-16 12:16:29,124 - INFO - PDF release detected for 999 Test Road - 07162026.pdf
+2026-07-16 12:16:32,137 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\999 Test Road - 07162026.pdf
+PRE-OPEN size=250911 bytes mtime=2026-07-13 16:55:58.795947
+POST-CLOSE size=251336 bytes mtime=2026-07-16 12:16:28.747195
+PASS: File size changed after the invoice was closed
+PASS: Modification timestamp changed after the invoice was closed
+SYNC: Starting OneDrive sync monitoring
+SYNC: observed size=251336 mtime=2026-07-16 12:16:28.747195
+SYNC: observed size=251336 mtime=2026-07-16 12:16:28.747195
+SYNC: unchanged snapshot 1/3
+SYNC: observed size=251336 mtime=2026-07-16 12:16:28.747195
+SYNC: unchanged snapshot 2/3
+SYNC: observed size=251336 mtime=2026-07-16 12:16:28.747195
+SYNC: unchanged snapshot 3/3
+PASS: File metadata remained stable for OneDrive sync
+PASS: Required PDF field CUST_Address_Street contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 12:16:32,145 - INFO - Email notifications not configured for 999 Test Road - 07162026.pdf.
+2026-07-16 12:17:13,808 - INFO - Application Started
+2026-07-16 12:17:13,809 - INFO - SMTP host not configured
+2026-07-16 12:17:13,809 - INFO - Email provider mode: auto
+2026-07-16 12:17:13,809 - INFO - Graph configured: False
+2026-07-16 12:17:13,809 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 12:17:13,809 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 12:17:13,810 - INFO - Environment validation successful
+2026-07-16 12:17:14,279 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 12:17:17,587 - INFO - Editing Existing Invoice: 1234a Test St - 07162026.pdf
+2026-07-16 12:17:17,596 - INFO - Pre-open file stats for 1234a Test St - 07162026.pdf: size=251337 bytes, mtime=2026-07-16 11:59:26.004372
+2026-07-16 12:17:17,597 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St - 07162026.pdf
+2026-07-16 12:17:18,695 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:19,703 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:20,714 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:21,725 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:22,733 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:23,744 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:24,749 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:25,757 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:26,765 - INFO - PDF release detected for 1234a Test St - 07162026.pdf
+2026-07-16 12:17:26,767 - WARNING - Invoice integrity validation failed: file metadata unchanged
+2026-07-16 12:17:26,767 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St - 07162026.pdf
+PRE-OPEN size=251337 bytes mtime=2026-07-16 11:59:26.004372
+POST-CLOSE size=251337 bytes mtime=2026-07-16 11:59:26.004372
+FAIL: File size did not change after the invoice was closed
+FAIL: Modification timestamp did not change after the invoice was closed
+ERROR: File integrity checks failed before sync monitoring
+2026-07-16 12:17:26,767 - WARNING - Invoice integrity validation failed for 1234a Test St - 07162026.pdf: ERROR: File integrity checks failed before sync monitoring
+2026-07-16 12:17:37,296 - INFO - Editing Existing Invoice: 1234a Test St - 07162026.pdf
+2026-07-16 12:17:37,305 - INFO - Pre-open file stats for 1234a Test St - 07162026.pdf: size=251337 bytes, mtime=2026-07-16 11:59:26.004372
+2026-07-16 12:17:37,306 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St - 07162026.pdf
+2026-07-16 12:17:38,344 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:39,347 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:40,354 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:41,363 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:42,373 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:43,380 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:44,390 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:45,396 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:46,398 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:47,402 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:48,410 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:49,419 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:50,423 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:51,430 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:52,434 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:53,436 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:54,438 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:55,448 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:56,456 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:57,459 - INFO - INFO: PDF still open in editor (1234a Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St - 07162026.pdf'
+2026-07-16 12:17:58,471 - INFO - PDF release detected for 1234a Test St - 07162026.pdf
+2026-07-16 12:18:01,483 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St - 07162026.pdf
+PRE-OPEN size=251337 bytes mtime=2026-07-16 11:59:26.004372
+POST-CLOSE size=251348 bytes mtime=2026-07-16 12:17:58.174098
+PASS: File size changed after the invoice was closed
+PASS: Modification timestamp changed after the invoice was closed
+SYNC: Starting OneDrive sync monitoring
+SYNC: observed size=251348 mtime=2026-07-16 12:17:58.174098
+SYNC: observed size=251348 mtime=2026-07-16 12:17:58.174098
+SYNC: unchanged snapshot 1/3
+SYNC: observed size=251348 mtime=2026-07-16 12:17:58.174098
+SYNC: unchanged snapshot 2/3
+SYNC: observed size=251348 mtime=2026-07-16 12:17:58.174098
+SYNC: unchanged snapshot 3/3
+PASS: File metadata remained stable for OneDrive sync
+PASS: Required PDF field CUST_Address_Street contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 12:18:01,503 - INFO - Invoice Renamed: 1234a Test St Ste 101 - 07162026.pdf
+2026-07-16 12:18:54,127 - INFO - Editing Existing Invoice: 1234a Test St Ste 101 - 07162026.pdf
+2026-07-16 12:18:54,136 - INFO - Pre-open file stats for 1234a Test St Ste 101 - 07162026.pdf: size=251348 bytes, mtime=2026-07-16 12:17:58.174098
+2026-07-16 12:18:54,136 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St Ste 101 - 07162026.pdf
+2026-07-16 12:18:55,179 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:18:56,187 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:18:57,193 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:18:58,195 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:18:59,202 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:00,211 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:01,216 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:02,224 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:03,228 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:04,241 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:05,249 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:06,263 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:07,271 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:08,278 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:09,286 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:10,289 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:11,297 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:12,303 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:13,306 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:14,309 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:15,314 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:16,323 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:17,329 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:18,334 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:19,338 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:20,343 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:21,350 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:22,355 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:23,360 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:24,366 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:25,370 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:26,377 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:27,377 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:28,378 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:29,385 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:30,385 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:31,388 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:32,392 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:33,395 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:34,400 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:35,405 - INFO - INFO: PDF still open in editor (1234a Test St Ste 101 - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234a Test St Ste 101 - 07162026.pdf'
+2026-07-16 12:19:36,410 - INFO - PDF release detected for 1234a Test St Ste 101 - 07162026.pdf
+2026-07-16 12:19:36,410 - WARNING - Invoice integrity validation failed: file metadata unchanged
+2026-07-16 12:19:36,410 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234a Test St Ste 101 - 07162026.pdf
+PRE-OPEN size=251348 bytes mtime=2026-07-16 12:17:58.174098
+POST-CLOSE size=251348 bytes mtime=2026-07-16 12:17:58.174098
+FAIL: File size did not change after the invoice was closed
+FAIL: Modification timestamp did not change after the invoice was closed
+ERROR: File integrity checks failed before sync monitoring
+2026-07-16 12:19:36,410 - WARNING - Invoice integrity validation failed for 1234a Test St Ste 101 - 07162026.pdf: ERROR: File integrity checks failed before sync monitoring
+2026-07-16 12:25:28,361 - INFO - Application Started
+2026-07-16 12:25:28,362 - INFO - SMTP host not configured
+2026-07-16 12:25:28,362 - INFO - Email provider mode: auto
+2026-07-16 12:25:28,362 - INFO - Graph configured: False
+2026-07-16 12:25:28,362 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 12:25:28,362 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 12:25:28,363 - INFO - Environment validation successful
+2026-07-16 12:25:28,833 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 12:25:41,017 - INFO - Editing Existing Invoice: 1234 Test St - 07162026.pdf
+2026-07-16 12:25:41,027 - INFO - Pre-open file stats for 1234 Test St - 07162026.pdf: size=252011 bytes, mtime=2026-07-16 11:00:43.344443
+2026-07-16 12:25:41,027 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+2026-07-16 12:25:42,128 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:43,133 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:44,144 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:45,151 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:46,152 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:47,161 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:48,166 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:49,174 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:25:50,177 - INFO - PDF release detected for 1234 Test St - 07162026.pdf
+2026-07-16 12:25:50,186 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+PRE-OPEN size=252011 bytes mtime=2026-07-16 11:00:43.344443
+POST-CLOSE size=252011 bytes mtime=2026-07-16 11:00:43.344443
+PASS: No changes detected after opening the invoice
+PASS: Required PDF field {FIELD_CUSTOMER_ADDRESS} contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 12:26:09,065 - INFO - Editing Existing Invoice: 1234 Test St - 07162026.pdf
+2026-07-16 12:26:09,074 - INFO - Pre-open file stats for 1234 Test St - 07162026.pdf: size=252011 bytes, mtime=2026-07-16 11:00:43.344443
+2026-07-16 12:26:09,074 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+2026-07-16 12:26:10,115 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:11,116 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:12,120 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:13,131 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:14,136 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:15,143 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:16,153 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:17,160 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:18,169 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:19,175 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:20,181 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:21,184 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:22,184 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:23,194 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:24,196 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:26:25,197 - INFO - PDF release detected for 1234 Test St - 07162026.pdf
+2026-07-16 12:26:28,210 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+PRE-OPEN size=252011 bytes mtime=2026-07-16 11:00:43.344443
+POST-CLOSE size=252142 bytes mtime=2026-07-16 12:26:24.872345
+PASS: File size changed after the invoice was closed
+PASS: Modification timestamp changed after the invoice was closed
+SYNC: Starting OneDrive sync monitoring
+SYNC: observed size=252142 mtime=2026-07-16 12:26:24.872345
+SYNC: observed size=252142 mtime=2026-07-16 12:26:24.872345
+SYNC: unchanged snapshot 1/3
+SYNC: observed size=252142 mtime=2026-07-16 12:26:24.872345
+SYNC: unchanged snapshot 2/3
+SYNC: observed size=252142 mtime=2026-07-16 12:26:24.872345
+SYNC: unchanged snapshot 3/3
+PASS: File metadata remained stable for OneDrive sync
+PASS: Required PDF field CUST_Address_Street contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 12:27:00,487 - INFO - New Invoice Created: 12345 TEST ST - 07162026.pdf
+2026-07-16 12:27:00,487 - INFO - Pre-open file stats for 12345 TEST ST - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 12:27:00,487 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\12345 TEST ST - 07162026.pdf
+2026-07-16 12:27:01,537 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:02,545 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:03,560 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:04,562 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:05,566 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:06,567 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:07,571 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:08,577 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:27:09,582 - INFO - PDF release detected for 12345 TEST ST - 07162026.pdf
+2026-07-16 12:27:09,591 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-16 12:27:10,599 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-16 12:27:11,608 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-16 12:27:12,622 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-16 12:27:13,631 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-16 12:27:13,631 - WARNING - Invoice integrity validation failed: required address field blank
+2026-07-16 12:27:13,631 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\12345 TEST ST - 07162026.pdf
+PRE-OPEN size=250911 bytes mtime=2026-07-13 16:55:58.795947
+POST-CLOSE size=250911 bytes mtime=2026-07-13 16:55:58.795947
+FAIL: Required PDF field CUST_Address_Street is blank
+2026-07-16 12:27:13,631 - WARNING - Invoice integrity validation failed for 12345 TEST ST - 07162026.pdf: FAIL: Required PDF field CUST_Address_Street is blank
+2026-07-16 12:27:49,235 - INFO - Editing Existing Invoice: 1234 Test St - 07162026.pdf
+2026-07-16 12:27:49,243 - INFO - Pre-open file stats for 1234 Test St - 07162026.pdf: size=252142 bytes, mtime=2026-07-16 12:26:24.872345
+2026-07-16 12:27:49,243 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+2026-07-16 12:27:50,293 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:27:51,298 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:27:52,299 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:27:53,309 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:27:54,314 - INFO - INFO: PDF still open in editor (1234 Test St - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 Test St - 07162026.pdf'
+2026-07-16 12:27:55,318 - INFO - PDF release detected for 1234 Test St - 07162026.pdf
+2026-07-16 12:27:55,326 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 Test St - 07162026.pdf
+PRE-OPEN size=252142 bytes mtime=2026-07-16 12:26:24.872345
+POST-CLOSE size=252142 bytes mtime=2026-07-16 12:26:24.872345
+PASS: No changes detected after opening the invoice
+PASS: Required PDF field {FIELD_CUSTOMER_ADDRESS} contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 12:28:33,725 - INFO - Editing Existing Invoice: 12345 TEST ST - 07162026.pdf
+2026-07-16 12:28:33,734 - INFO - Pre-open file stats for 12345 TEST ST - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 12:28:33,734 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\12345 TEST ST - 07162026.pdf
+2026-07-16 12:28:34,777 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:35,791 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:36,798 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:37,805 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:38,815 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:39,827 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:40,836 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:41,845 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:42,852 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:43,858 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:44,864 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:45,870 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:46,871 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:47,871 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:28:48,873 - INFO - PDF release detected for 12345 TEST ST - 07162026.pdf
+2026-07-16 12:28:48,882 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-16 12:28:49,894 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-16 12:28:50,904 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-16 12:28:51,913 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-16 12:28:52,923 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-16 12:28:52,923 - WARNING - Invoice integrity validation failed: required address field blank
+2026-07-16 12:28:52,923 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\12345 TEST ST - 07162026.pdf
+PRE-OPEN size=250911 bytes mtime=2026-07-13 16:55:58.795947
+POST-CLOSE size=250911 bytes mtime=2026-07-13 16:55:58.795947
+FAIL: Required PDF field CUST_Address_Street is blank
+2026-07-16 12:28:52,923 - WARNING - Invoice integrity validation failed for 12345 TEST ST - 07162026.pdf: FAIL: Required PDF field CUST_Address_Street is blank
+2026-07-16 12:36:38,625 - INFO - Application Started
+2026-07-16 12:36:38,625 - INFO - SMTP host not configured
+2026-07-16 12:36:38,625 - INFO - Email provider mode: auto
+2026-07-16 12:36:38,625 - INFO - Graph configured: False
+2026-07-16 12:36:38,626 - INFO - Shared SMTP settings file: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\smtp_settings.json
+2026-07-16 12:36:38,626 - INFO - Local SMTP settings file: C:\Users\rgw\AppData\Roaming\WallenInvoice\smtp_settings.local.json
+2026-07-16 12:36:38,626 - INFO - Environment validation successful
+2026-07-16 12:36:39,094 - INFO - Startup email connectivity check skipped. Steps: INFO: No email provider configured
+2026-07-16 12:36:51,158 - INFO - New Invoice Created: 1234 TEST ST - 07162026.pdf
+2026-07-16 12:36:51,159 - INFO - Pre-open file stats for 1234 TEST ST - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 12:36:51,159 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 TEST ST - 07162026.pdf
+2026-07-16 12:36:52,262 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:36:53,263 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:36:54,270 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:36:55,275 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:36:56,280 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:36:57,292 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:36:58,296 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:36:59,311 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:00,312 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:01,313 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:02,325 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:03,330 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:04,340 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:05,343 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:06,351 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:07,354 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:08,355 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:09,367 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:10,374 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:11,381 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:12,383 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:13,392 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:14,394 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:15,398 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:37:16,409 - INFO - PDF release detected for 1234 TEST ST - 07162026.pdf
+2026-07-16 12:37:19,429 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 TEST ST - 07162026.pdf
+PRE-OPEN size=250911 bytes mtime=2026-07-13 16:55:58.795947
+POST-CLOSE size=251324 bytes mtime=2026-07-16 12:37:15.440378
+PASS: File size changed after the invoice was closed
+PASS: Modification timestamp changed after the invoice was closed
+SYNC: Starting OneDrive sync monitoring
+SYNC: observed size=251324 mtime=2026-07-16 12:37:15.440378
+SYNC: observed size=251324 mtime=2026-07-16 12:37:15.440378
+SYNC: unchanged snapshot 1/3
+SYNC: observed size=251324 mtime=2026-07-16 12:37:15.440378
+SYNC: unchanged snapshot 2/3
+SYNC: observed size=251324 mtime=2026-07-16 12:37:15.440378
+SYNC: unchanged snapshot 3/3
+PASS: File metadata remained stable for OneDrive sync
+PASS: Required PDF field CUST_Address_Street contains a value
+PASS: Invoice integrity validation completed successfully
+2026-07-16 12:37:19,429 - INFO - Email notifications not configured for 1234 TEST ST - 07162026.pdf.
+2026-07-16 12:37:39,036 - INFO - New Invoice Created: 12345 TEST ST - 07162026.pdf
+2026-07-16 12:37:39,036 - INFO - Pre-open file stats for 12345 TEST ST - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 12:37:39,036 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\12345 TEST ST - 07162026.pdf
+2026-07-16 12:37:40,087 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:37:41,095 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:37:42,103 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:37:43,106 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:37:44,106 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:37:45,116 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:37:46,119 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:37:47,124 - INFO - PDF release detected for 12345 TEST ST - 07162026.pdf
+2026-07-16 12:37:47,132 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-16 12:37:48,144 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-16 12:37:49,154 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-16 12:37:50,165 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-16 12:37:51,174 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-16 12:37:57,546 - INFO - Blank invoice removed by user confirmation
+2026-07-16 12:38:12,667 - INFO - New Invoice Created: 12345 TEST ST - 07162026.pdf
+2026-07-16 12:38:12,668 - INFO - Pre-open file stats for 12345 TEST ST - 07162026.pdf: size=250911 bytes, mtime=2026-07-13 16:55:58.795947
+2026-07-16 12:38:12,669 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\12345 TEST ST - 07162026.pdf
+2026-07-16 12:38:13,714 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:38:14,715 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:38:15,728 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:38:16,731 - INFO - INFO: PDF still open in editor (12345 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\12345 TEST ST - 07162026.pdf'
+2026-07-16 12:38:17,734 - INFO - PDF release detected for 12345 TEST ST - 07162026.pdf
+2026-07-16 12:38:17,743 - INFO - Field CUST_Address_Street was blank on attempt 1/5
+2026-07-16 12:38:18,752 - INFO - Field CUST_Address_Street was blank on attempt 2/5
+2026-07-16 12:38:19,766 - INFO - Field CUST_Address_Street was blank on attempt 3/5
+2026-07-16 12:38:20,776 - INFO - Field CUST_Address_Street was blank on attempt 4/5
+2026-07-16 12:38:21,785 - INFO - Field CUST_Address_Street was blank on attempt 5/5
+2026-07-16 12:38:24,722 - INFO - Blank invoice retained by user choice
+2026-07-16 12:38:58,152 - INFO - Editing Existing Invoice: 1234 TEST ST - 07162026.pdf
+2026-07-16 12:38:58,161 - INFO - Pre-open file stats for 1234 TEST ST - 07162026.pdf: size=251324 bytes, mtime=2026-07-16 12:37:15.440378
+2026-07-16 12:38:58,161 - INFO - Opening PDF: C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 TEST ST - 07162026.pdf
+2026-07-16 12:38:59,200 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:00,211 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:01,224 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:02,232 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:03,239 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:04,243 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:05,248 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:06,262 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:07,263 - INFO - INFO: PDF still open in editor (1234 TEST ST - 07162026.pdf): [Errno 13] Permission denied: 'C:\\Users\\rgw\\Wallen Service Corp\\Kelly Montoya - 2026 - WAC Invoices\\Invoices\\1234 TEST ST - 07162026.pdf'
+2026-07-16 12:39:08,263 - INFO - PDF release detected for 1234 TEST ST - 07162026.pdf
+2026-07-16 12:39:08,272 - INFO - VALIDATION REPORT for C:\Users\rgw\Wallen Service Corp\Kelly Montoya - 2026 - WAC Invoices\Invoices\1234 TEST ST - 07162026.pdf
+PRE-OPEN size=251324 bytes mtime=2026-07-16 12:37:15.440378
+POST-CLOSE size=251324 bytes mtime=2026-07-16 12:37:15.440378
+PASS: No changes detected after opening the invoice
+PASS: Required PDF field {FIELD_CUSTOMER_ADDRESS} contains a value
+PASS: Invoice integrity validation completed successfully

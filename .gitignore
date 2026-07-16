@@ -130,6 +130,12 @@ dmypy.json
 Thumbs.db
 
 # Application-specific
-Logs/*.log
+Logs/
+Invoices/
+Archived/
+smtp_settings.json
+*.log
+*.lnk
+.849C9593-D756-4E56-8D6E-42412F2A707B
 Processed/
 .DS_Store
